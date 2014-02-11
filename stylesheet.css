@@ -1,0 +1,125 @@
+
+html{
+	width:100%;
+}
+
+body {
+font-family: "Arial Black", "Gadget", "sans-serif";
+color:rgb(250,250,0);
+font-size:1em;
+line-height:1.2em;
+background:rgb(90,15,40);
+}
+
+header {
+text-align:center;
+}
+
+h1 {
+width:100%;
+text-align:center;
+}
+
+h2 {
+font-family: Arial, Helvetica, "sans-serif";
+position:relative;
+display:block;
+width:100%;
+text-align:center;
+font-size: 1.3em;
+top:20px;
+}
+
+#reviewinfo {
+	display: block;
+	position:relative;
+	width: 80%;
+	padding-left: 10%;
+	padding-top:20px;
+}
+
+a:link    {color:yellow;
+text-decoration: underline;}
+a:visited {color:yellow;}
+a:hover   {color:white;
+text-decoration:underline;
+font-size:110%}
+a:active  {color:yellow;}
+
+nav {
+background:#000;
+width:99%;
+display:block;
+position:absolute;
+top:55px;
+text-align:center;
+height:20px;
+word-spacing:5px;
+}
+
+#book {
+margin-top:44px;
+text-align:center;
+}
+
+#button_div {
+	text-align:center;
+}
+
+button {
+	background:#000;
+	border-top: 1px solid #000;
+	border: 1px solid #000000;
+	background: #000000;
+	background: -webkit-gradient(linear, left top, left bottom, from(#000000), to(#000000));
+	background: -webkit-linear-gradient(top, #000000, #000000);
+	background: -moz-linear-gradient(top, #000000, #000000);
+	background: -ms-linear-gradient(top, #000000, #000000);
+	background: -o-linear-gradient(top, #000000, #000000);
+	padding: 8.5px 17px;
+	-webkit-border-radius: 18px;
+	-moz-border-radius: 18px;
+	border-radius: 18px;
+	-webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+	-moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+	box-shadow: rgba(0,0,0,1) 0 1px 0;
+	text-shadow: rgba(0,0,0,.4) 0 1px 0;
+	color: #e0d500;
+	font-size: 3em;
+	font-family: Helvetica, Arial, Sans-Serif;
+	text-decoration: none;
+	vertical-align: middle;
+	margin:0px;
+}
+
+button:hover {
+   border-top-color: #ffff63;
+   background: #ffff63;
+   color: #999999;
+   }
+button:active {
+   border-top-color: #000000;
+   background: #000000;
+   }
+}
+
+#back {
+	display: inline-block;
+	bottom: 50%;
+}
+
+#forward {
+	display: inline-block;
+	bottom: 50%;
+}
+
+#contactinfo {
+margin-top:44px;
+text-align:center;
+}
+
+.cbe {
+	display: block;
+	bottom:10px;
+	text-align: center;
+}
